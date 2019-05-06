@@ -1,7 +1,8 @@
-# Create method `roll` that returns a random number between 1 and 6
-
-# Feel free to google "how to generate a random number in ruby"
-
 def roll
-  # code goes here
+  rand(1..6)
 end
+
+
+#rand #this gives a float, a number between 0 and 1.
+#rand(1..12) # returns a number from 1 to 12.
+#rand(1...2) # returns a number between 1 and 2, not including 2.
